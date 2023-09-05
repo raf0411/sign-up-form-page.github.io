@@ -39,7 +39,7 @@ function inputValidation()
     else if(!inputPassword.value)
     {
       inputPassword.classList.add('input-invalid');
-      inputPassword.value = ' ';
+      inputPassword.placeholder = '';
       password.innerHTML = 'Password cannot be empty';
     }
   }
